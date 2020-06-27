@@ -33,6 +33,8 @@ The dataset consists of feature vectors belonging to 12,330 sessions. The datase
 | Month               | Month value of the visit date                                            | 12               |
 | Revenue             | Class label: whether the visit has been finalized with a transaction     | 2                |
 
+![](/page-metrics.png)
+
 ### Project Goal
 The main goal of this project is to design a machine learning classification system, that is able to predict an online shopper's intention ( _buy_ or _no_ _buy_ ), based on the values of the given features (from google analytics). A number of different classification algorithms is tested, in order to pick the best one for the project.
 
@@ -48,5 +50,5 @@ In this project, we used *Online Shoppers Intention* dataset to build models tha
 |Gradient Boost|0.905|0.689|0.761|0.63|
 |AdaBoost|0.889|0.624|0.713|0.555|
 
-
+![](/roc-curves.png)
 
