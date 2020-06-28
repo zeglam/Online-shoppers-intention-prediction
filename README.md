@@ -39,7 +39,7 @@ The dataset consists of feature vectors belonging to 12,330 sessions. The datase
 The main goal of this project is to design a machine learning classification system, that is able to predict an online shopper's intention ( _buy_ or _no_ _buy_ ), based on the values of the given features (from google analytics). A number of different classification algorithms is tested, in order to pick the best one for the project.
 
 ### Conclusion
-In this project, we used *Online Shoppers Intention* dataset to build models that can classify website visitor, and predict which of them is likely going to make a purchase on the website. 7 different learning classifiers (Naive Bayes, KNN, SVM, Logistic Regression, Random Forest, Gradiant Boosting, and Adaboosting) were tested and optimized, and we have achieved the best classification performance using Gradient Boost classifier, followed by random Forest, and then Adaboost.
+In this project, we used *Online Shoppers Intention* dataset to build models that can classify website visitor, and predict which of them is likely going to make a purchase on the website. 7 different learning classifiers (Naive Bayes, KNN, SVM, Logistic Regression, Random Forest, Gradient Boosting, and Adaboosting) were tested and optimized, and we have achieved the best classification performance using Gradient Boost classifier, followed by random Forest, and then Adaboost.
 | Classifier | Accuracy | F1-Score | Precision | Recall |
 |:-----------|:---------|:---------|:----------|:-------|
 |Naive Bayes |0.775     |0.491     |0.394    |0.652  |
